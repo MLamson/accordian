@@ -1,11 +1,17 @@
 $boxWidth: 400px;
 $boxBorder: 5px solid lightgrey;
 .container {
+	margin-top:25%;
+	margin-left:25%;
 	
 	.boxOne{
 		width:$boxWidth;
 		border: $boxBorder;
+
 	}
+	// .boxTwoPara {
+	// 	visibility: hidden;
+	// }
 
 	.boxTwo{
 		width:$boxWidth;

@@ -6,27 +6,27 @@
 $('div.boxOneTop').on("click", function(){
 
 
-	$( 'p.boxOnePara').show();
-	$( 'p.boxTwoPara').hide();
-	$( 'p.boxThreePara').hide();
+	$( 'p.boxOnePara').show("slow");
+	$( 'p.boxTwoPara').hide("slow");
+	$( 'p.boxThreePara').hide("slow");
 
 });
 
 $('div.boxTwoTop').on("click", function(){
 
 
-	$( 'p.boxOnePara').hide();
-	$( 'p.boxTwoPara').show();
-	$( 'p.boxThreePara').hide();
+	$( 'p.boxOnePara').hide("slow");
+	$( 'p.boxTwoPara').show("slow");
+	$( 'p.boxThreePara').hide("slow");
 
 });
 
 $('div.boxThreeTop').on("click", function(){
 
 
-	$( 'p.boxOnePara').hide();
-	$( 'p.boxTwoPara').hide();
-	$( 'p.boxThreePara').show();
+	$( 'p.boxOnePara').hide("slow");
+	$( 'p.boxTwoPara').hide("slow");
+	$( 'p.boxThreePara').show("slow");
 
 });// $('div.boxTwoTop').on("click", function(){
 
