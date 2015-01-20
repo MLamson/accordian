@@ -1,17 +1,23 @@
 $boxWidth: 400px;
-$boxBorder: 5px solid lightgrey;
+$boxBorder: 1px solid lightgrey;
+$backColor: HSLA(184, 100%, 42%, 1);
 .container {
-	margin-top:25%;
+	margin-top:10%;
 	margin-left:25%;
 	
 	.boxOne{
 		width:$boxWidth;
 		border: $boxBorder;
-
 	}
-	// .boxTwoPara {
-	// 	visibility: hidden;
-	// }
+	.boxOnePara{
+		padding:15px;
+	}
+	.boxTwoPara{
+		padding:15px;
+	}
+	.boxThreePara{
+		padding:15px;
+	}
 
 	.boxTwo{
 		width:$boxWidth;
@@ -24,9 +30,38 @@ $boxBorder: 5px solid lightgrey;
 	}
 
 	.boxThreeTop{
-		height:75px;
-		background-color: lightgrey;
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		background-color: $backColor;
+
 	}
+
+	.boxTwoTop{
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		
+		background-color: $backColor;
+	}
+	.boxOneTop{
+		color:white;
+		padding-left: 5%;
+		line-height: 200%;
+		background-color: $backColor;
+
+	}
+	.boxOneTop:hover{
+		background-color:black;
+	}
+
+	.boxTwoTop:hover{
+		background-color:black;
+	}
+	.boxThreeTop:hover{
+		background-color:black;
+	}
+
 }//container close brace
 // .hide p {
 // 	text-indent: 100%;

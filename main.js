@@ -3,6 +3,10 @@
 // $( "p.boxTwoPara" ).hide();
 // $( "p.boxThreePara").hide();
 
+$( 'p.boxOnePara').show("slow");
+	$( 'p.boxTwoPara').hide("slow");
+	$( 'p.boxThreePara').hide("slow");
+
 $('div.boxOneTop').on("click", function(){
 
 

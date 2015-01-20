@@ -1,17 +1,41 @@
 .container {
-  margin-top: 25%;
+  margin-top: 10%;
   margin-left: 25%; }
   .container .boxOne {
     width: 400px;
-    border: 5px solid lightgrey; }
+    border: 1px solid lightgrey; }
+  .container .boxOnePara {
+    padding: 15px; }
+  .container .boxTwoPara {
+    padding: 15px; }
+  .container .boxThreePara {
+    padding: 15px; }
   .container .boxTwo {
     width: 400px;
-    border: 5px solid lightgrey; }
+    border: 1px solid lightgrey; }
   .container .boxThree {
     width: 400px;
-    border: 5px solid lightgrey; }
+    border: 1px solid lightgrey; }
   .container .boxThreeTop {
-    height: 75px;
-    background-color: lightgrey; }
+    color: white;
+    padding-left: 5%;
+    line-height: 200%;
+    background-color: HSLA(184, 100%, 42%, 1); }
+  .container .boxTwoTop {
+    color: white;
+    padding-left: 5%;
+    line-height: 200%;
+    background-color: HSLA(184, 100%, 42%, 1); }
+  .container .boxOneTop {
+    color: white;
+    padding-left: 5%;
+    line-height: 200%;
+    background-color: HSLA(184, 100%, 42%, 1); }
+  .container .boxOneTop:hover {
+    background-color: black; }
+  .container .boxTwoTop:hover {
+    background-color: black; }
+  .container .boxThreeTop:hover {
+    background-color: black; }
 
 /*# sourceMappingURL=main.css.map */
