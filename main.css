@@ -1,0 +1,14 @@
+.container .boxOne {
+  width: 400px;
+  border: 5px solid lightgrey; }
+.container .boxTwo {
+  width: 400px;
+  border: 5px solid lightgrey; }
+.container .boxThree {
+  width: 400px;
+  border: 5px solid lightgrey; }
+.container .boxThreeTop {
+  height: 75px;
+  background-color: lightgrey; }
+
+/*# sourceMappingURL=main.css.map */
